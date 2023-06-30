@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;900&display=swap');
+
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -6,13 +9,13 @@
 
 body {
   background-color: #1D1D20 ;
-  color: white;
   box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
   
 }
 
 .test {
-  background-color: #fbf24c;
+  background-color: #FFE250;
 }
 
 .test2 {
