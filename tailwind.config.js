@@ -13,6 +13,7 @@ module.exports = {
       'themePurple' : '#CF1FBD',
       'themeWhite' : '#E0E0E0',
       'themeBlacker' : '#131316',
+      'themeGrey' : '#999999',
     },
   },
   plugins: [],
