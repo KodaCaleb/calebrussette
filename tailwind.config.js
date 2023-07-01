@@ -8,9 +8,11 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'themeYellow' : '#FFD60A',
+      'themeBlue' : '#8400FF',
       'themeBlack' : '#1D1D20',
-      'themeYellowDark' : '#FFDD33',
+      'themePurple' : '#CF1FBD',
+      'themeWhite' : '#E0E0E0',
+      'themeBlacker' : '#131316',
     },
   },
   plugins: [],
