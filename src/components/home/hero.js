@@ -1,0 +1,25 @@
+import { TypeAnimation } from "react-type-animation";
+import DownloadCV from "../buttons/downloadCV";
+
+export default function Hero() {
+  return (
+    <div className="  ml-28 p-2  z-50 w-2/5 flex-col  text-themeWhite font-extralight flex justify-center h-full">
+      <h1 className=" text-7xl mb-6">
+        Hi, i'm{" "}
+        <span className=" rounded-xl drop-shadow-md border pl-1 pr-2 border-themeWhite border-opacity-40 gradient-background text-themeBlack">
+          {" "}
+          Caleb
+        </span>
+      </h1>
+      <h1 className=" text-xl mb-6 mt-6">
+        <TypeAnimation 
+          sequence={['Full-stack Web Developer specialized in building exceptional digital experiences.']}
+          speed={70}
+        />
+      </h1>
+      <div className="mt-6 ">
+        <DownloadCV />
+      </div>
+    </div>
+  );
+}
