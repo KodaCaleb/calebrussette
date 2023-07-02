@@ -6,7 +6,7 @@ export default function Nav() {
     <div className="flex-col ">
       <div className="flex justify-end mb-1 mr-4 ml-8 h-20 border border-themeWhite border-opacity-50 rounded-bl-3xl rounded-tr-3xl mt-4 drop-shadow-xl gradient-background">
         <div className=" flex justify-evenly w-3/5 text-lg font-light  text-themeBlack mr-3">
-          <div className="flex self-center  justify-center">
+          <div className="flex self-center justify-center">
             <Link to={"/"}>
               <h1 className="hover:text-themeWhite">Home</h1>
             </Link>
