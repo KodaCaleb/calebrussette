@@ -7,7 +7,7 @@ export default function Layout() {
         <div className="w-full flex h-screen flex-col justify-between">
             <div className="w-full flex h-full flex-col">
                 <Nav />
-                <div className=" w-full h-auto mt-2 flex rounded-m bg-themeBlack">
+                <div className=" w-full h-full mt-2 flex rounded-m bg-themeBlack">
                     <Outlet />
                 </div>
             </div>
