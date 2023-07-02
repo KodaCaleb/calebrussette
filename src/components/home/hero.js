@@ -3,10 +3,10 @@ import DownloadCV from "../buttons/downloadCV";
 
 export default function Hero() {
   return (
-    <div className="  ml-28 p-2  z-50 w-2/5 flex-col  text-themeWhite font-extralight flex justify-center h-full">
+    <div className="  sm:ml-28 ml-20 p-2  z-50 w-2/5 flex-col  text-themeWhite font-extralight flex justify-center h-full">
       <h1 className=" text-7xl mb-6">
         Hi, i'm{" "}
-        <span className=" rounded-xl drop-shadow-md border pl-1 pr-2 border-themeWhite border-opacity-40 gradient-background text-themeBlack">
+        <span className=" rounded-xl drop-shadow-md border pl-1 pr-2 border-themeBlack border-opacity-40 gradient-background text-themeBlack">
           {" "}
           Caleb
         </span>
