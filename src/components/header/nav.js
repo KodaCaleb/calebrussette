@@ -3,8 +3,8 @@ import Social from "./social";
 
 export default function Nav() {
   return (
-    <div>
-      <div className="flex justify-end mb-4 mr-4 ml-8 h-20 border border-themeWhite border-opacity-50 rounded-bl-3xl rounded-tr-3xl mt-4 drop-shadow-xl gradient-background">
+    <div className="flex-col ">
+      <div className="flex justify-end mb-1 mr-4 ml-8 h-20 border border-themeWhite border-opacity-50 rounded-bl-3xl rounded-tr-3xl mt-4 drop-shadow-xl gradient-background">
         <div className=" flex justify-evenly w-3/5 text-lg font-light  text-themeBlack mr-3">
           <div className="flex self-center  justify-center">
             <Link to={"/"}>
@@ -29,7 +29,7 @@ export default function Nav() {
         </div>
       </div>
       <div className="flex justify-evenly">
-        <div className="  z-20 gradient-background border self-center border-themeWhite border-opacity-40 drop-shadow-lg rounded-tl-xl ml-3 w-4/5 h-4"></div>
+        <div className="  z-20 gradient-background border self-center border-themeWhite border-opacity-40 drop-shadow-lg rounded-tl-xl ml-1 w-4/5 h-4"></div>
         <Social />
       </div>
     </div>
