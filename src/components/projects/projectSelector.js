@@ -1,3 +1,7 @@
+import { projectData } from "../assets/projectData.js";
+
+
+
 export default function ProjectSelector() {
   return (
     <div className=" justify-center p-4 flex  w-full h-full">
@@ -16,17 +20,18 @@ export default function ProjectSelector() {
       <div className="justify-center flex h-full m-1 w-1/2">
         <div className="flex w-1/2 ">
           <div className="flex self-center justify-evenly text-themeWhite flex-col w-full h-2/3">
-            <button className="self-end">Option 1</button>
-            <button className="self-end">Option 2</button>
-            <button className="self-end">Option 3</button>
-            <button className="self-end">Option 4</button>
-            <button className="self-end">Option 5</button>
-            <button className="self-end">Option 6</button>
+            { projectData.map((data, key) => {
+                return ( 
+                    <button key={key} className="self-end">
+                        {data.title}
+                    </button>
+                )
+            })}
           </div>
         </div>
       </div>
     </div>
 
-    
+
   );
 }
