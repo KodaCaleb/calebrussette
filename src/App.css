@@ -41,6 +41,23 @@ body {
   }
 }
 
+.card-background {
+  background: linear-gradient(100deg,#cf1fbd,#8400ff);
+  background-size: 150% 120%;
+  animation: card-animation 6s ease infinite;
+}
+
+@keyframes card-animation {
+  0% {
+    background-position: 0% 20%;
+  }
+  50% {
+    background-position: 100% 10%;
+  }
+  100% {
+    background-position: 0% 20%;
+  }
+}
 
 
 

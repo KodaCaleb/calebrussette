@@ -2,7 +2,7 @@ export const projectData = [
     {
         id: 1,
         title: "Valiant Health",
-        description: "I was contracted to build a website for a local health company. I was given a design and collaborated with the client to create a coming soon page for their website. After the coming soon page was completed, I was then asked to work with a small team to come back and build the full website, which is currently in development. It was very exciting to work with a team of developers and designers to create a website for this client as it challenged me to use new technologies and work with a team using agile methodologies. I am currently working on the full website and will update this section when it is completed.",
+        description: "I was contracted to develop a 'coming soon' page for a local health company's website, collaborating closely with the client. This initial success led to an opportunity to join a skilled team in building the complete website. Working alongside talented developers and designers, I'm currently utilizing innovative technologies and following agile methodologies to develop the full website. It has been an exciting professional project, and I look forward to providing updates soon.",
         image: "./portfolio.png",
         link: "https://www.valianthealth.org",
         github: "https://github.com/KodaCaleb/val",
