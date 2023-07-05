@@ -14,9 +14,6 @@ body {
   
 }
 
-.test {
-  background-color: #FFE250;
-}
 
 .test2 {
   background-color: #1D1D20;
@@ -96,6 +93,12 @@ body {
   right: -4px;
   bottom: -4px;
 }
+
+.underline {
+  text-decoration: underline;
+  color: #E0E0E0;
+}
+
 
 
 
