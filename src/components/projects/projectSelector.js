@@ -18,10 +18,10 @@ export default function ProjectSelector() {
     <div className=" justify-center p-4 items-center flex flex-col-reverse md:flex-row w-auto sm:w-full h-auto md:h-full">
       <div ref={ref} className=" justify-center flex h-full m-1 md:w-1/2 ">
         {currentProject ? (
-          <ProjectCard project={currentProject} />
+          <ProjectCard project={currentProject} isVisable={true} />
         ) : (
           <div className="self-center justify-center flex-row flex h-1/2 w-full">
-            <div className="h-2/5 sm:w-2/3 w-full sm:flex text-start self-center hidden text-themeWhite sm:text-5xl text-2xl font-thin flex-col justify-center">
+            <div className="h-2/5 sm:w-2/3 w-full sm:flex text-start self-center hidden border-b pb-12 text-themeWhite sm:text-5xl text-2xl font-thin flex-col justify-center">
                 <TypeAnimation
                 sequence={["Here's what i've been working on :"]}
                 speed={50}
