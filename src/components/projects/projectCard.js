@@ -6,8 +6,8 @@ export default function ProjectCard({ project }) {
 
   useEffect(() => {
     const animateCard = async () => {
-      await controls.start({ opacity: 0, y: -100 });
-      controls.start({ opacity: 1, y: 0 });
+      await controls.start({ opacity: 0, x: -100 });
+      controls.start({ opacity: 1, x: 0 });
     };
 
     if (project) {
@@ -18,10 +18,10 @@ export default function ProjectCard({ project }) {
   return (
     <motion.div
       key={project ? project.id : null}
-      initial={{ opacity: 0, y: -100 }}
+      initial={{ opacity: 0, x: -100 }}
       animate={controls}
-      exit={{ opacity: 0, y: -100 }}
-      transition={{ duration: 0.3 }}
+      exit={{ opacity: 0, x: -100 }}
+      transition={{ duration: 0.4 }}
       className="md:ml-2 text-themeWhite card-background max-h-full border-themeBlack rounded-xl self-center justify-center flex-col flex h-auto md:w-auto"
     >
       {project && (
