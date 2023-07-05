@@ -15,8 +15,8 @@ export default function ProjectSelector() {
   };
 
   return (
-    <div className=" justify-center p-4 items-center flex flex-col-reverse sm:flex-row w-auto sm:w-full h-auto sm:h-full">
-      <div ref={ref} className=" justify-center flex h-full m-1 sm:w-1/2 ">
+    <div className=" justify-center p-4 items-center flex flex-col-reverse md:flex-row w-auto sm:w-full h-auto md:h-full">
+      <div ref={ref} className=" justify-center flex h-full m-1 md:w-1/2 ">
         {currentProject ? (
           <ProjectCard project={currentProject} />
         ) : (
@@ -30,16 +30,16 @@ export default function ProjectSelector() {
           </div>
         )}
       </div>
-      <div className=" sm:justify-end justify-center flex h-full font-thin font m-1 font w-full sm:w-1/2">
+      <div className=" md:justify-end justify-center flex h-full font-thin font m-1 font w-full md:w-1/2">
         <div className="flex w-1/2 ">
-          <div className="flex self-center sm:justify-evenly justify-center sm:mr-8 mb-20 sm:mb-0 text-themeWhite flex-col w-full h-2/3">
+          <div className="flex self-center sm:justify-evenly justify-center md:mr-8 mb-20 md:mb-0 text-themeWhite flex-col w-full h-2/3">
             {projectData.map((data) => {
-              const buttonClass = data.id === currentProject?.id ? " rounded-2xl dropshadow-2xl border-themeWhite border-b border-t font-normal text-themeBlack border-opacity-30 gradient-background  opacity-100" : "";
+              const buttonClass = data.id === currentProject?.id ? "  rounded-r-2xl dropshadow-2xl border-themeWhite border-b border-t sm:font-normal sm:text-themeBlack border-opacity-30 gradient-background  opacity-100" : "";
               return (
                 <button
                   onClick={() => handleSetCurrentProject(data.id)}
                   key={data.id}
-                  className={`self-end m-2 sm:self-end text-xl p-3 w-full text-center sm:text-end ${buttonClass}`}
+                  className={`self-end m-2 md:self-end text-xl p-3 w-full text-center md:text-end ${buttonClass}`}
                 >
                   {data.title}
                 </button>
