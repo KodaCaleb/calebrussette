@@ -30,15 +30,16 @@ export default function ProjectSelector() {
           </div>
         )}
       </div>
-      <div className=" sm:justify-end justify-center flex h-full m-1 w-full sm:w-1/2">
+      <div className=" sm:justify-end justify-center flex h-full font-thin font m-1 font w-full sm:w-1/2">
         <div className="flex w-1/2 ">
-          <div className="flex self-center sm:justify-evenly justify-center sm:mr-8  text-themeWhite flex-col w-full h-2/3">
+          <div className="flex self-center sm:justify-evenly justify-center sm:mr-8 mb-20 sm:mb-0 text-themeWhite flex-col w-full h-2/3">
             {projectData.map((data) => {
+              const buttonClass = data.id === currentProject?.id ? " rounded-2xl dropshadow-2xl border-themeWhite border-b border-t font-normal text-themeBlack border-opacity-30 gradient-background  opacity-100" : "";
               return (
                 <button
                   onClick={() => handleSetCurrentProject(data.id)}
                   key={data.id}
-                  className="self-end border rounded-2xl bg-themeBlacker m-2 sm:self-end text-xl p-3 w-full text-end opacity-80 hover:opacity-100 font-thin"
+                  className={`self-end m-2 sm:self-end text-xl p-3 w-full text-center sm:text-end ${buttonClass}`}
                 >
                   {data.title}
                 </button>
