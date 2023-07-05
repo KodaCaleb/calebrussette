@@ -22,7 +22,7 @@ export default function ProjectCard({ project }) {
       animate={controls}
       exit={{ opacity: 0, x: -100 }}
       transition={{ duration: 0.4 }}
-      className="md:ml-2 text-themeWhite card-background max-h-full border-themeBlack rounded-xl self-center justify-center flex-col flex h-auto md:w-auto"
+      className="md:ml-10 text-themeWhite card-background max-h-full border-themeBlack rounded-xl self-center justify-center flex-col flex h-auto md:w-auto"
     >
       {project && (
         <div className="h-auto m-2 rounded-xl drop-shadow-2xl max-h-fit flex w-auto bg-themeBlack self-center flex-col justify-evenly">
@@ -39,7 +39,7 @@ export default function ProjectCard({ project }) {
               Github
             </a>
             <a
-              href={project.github}
+              href={project.link}
               target="_blank"
               rel="noreferrer noopener"
               className=" font-extralight drop-shadow-xl m-4 text-themeWhite border-themeWhite border-opacity-40 border-2 pr-8 pl-8 pt-2 pb-2 rounded-lg hover:border-themeWhite  hover:border-opacity-90 "
