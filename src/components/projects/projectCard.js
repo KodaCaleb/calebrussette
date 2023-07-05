@@ -29,6 +29,24 @@ export default function ProjectCard({ project }) {
           <h1 className="text-3xl m-8">{project.title}</h1>
           <h2 className="m-8 font-extralight">{project.description}</h2>
           <h2 className="m-8">{project.technologies}</h2>
+          <div className="flex-row pr-8 pb-6 flex justify-end">
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer noopener"
+              className="gradient-background font-extralight drop-shadow-xl m-4 text-themeWhite border-themeBlack border-opacity-40 border pr-8 pl-8 pt-2 pb-2 rounded-lg hover:border-themeWhite  hover:border-opacity-90 "
+            >
+              Github
+            </a>
+            <a
+              href={project.github}
+              target="_blank"
+              rel="noreferrer noopener"
+              className=" font-extralight drop-shadow-xl m-4 text-themeWhite border-themeWhite border-opacity-40 border-2 pr-8 pl-8 pt-2 pb-2 rounded-lg hover:border-themeWhite  hover:border-opacity-90 "
+            >
+              Live Demo
+            </a>
+          </div>
         </div>
       )}
     </motion.div>
