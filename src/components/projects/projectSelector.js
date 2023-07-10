@@ -23,7 +23,7 @@ export default function ProjectSelector() {
           <div className="self-center justify-center flex-row flex h-1/2 w-full">
             <div className="h-2/5 sm:w-2/3 w-full sm:flex text-start self-center hidden border-b pb-12 text-themeWhite sm:text-5xl text-2xl font-thin flex-col justify-center">
                 <TypeAnimation
-                sequence={["Here's what i've been working on :"]}
+                sequence={["Here's what I've been working on :"]}
                 speed={50}
                 />
             </div>
