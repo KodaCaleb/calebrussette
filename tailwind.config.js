@@ -8,9 +8,9 @@ module.exports = {
     colors: {
       transparent: 'transparent',
       current: 'currentColor',
-      'themeBlue' : '#8400FF',
+      'themeBlue' : '#a14bf1',
       'themeBlack' : '#1D1D20',
-      'themePurple' : '#CF1FBD',
+      'themePurple' : '#e55dd7',
       'themeWhite' : '#E0E0E0',
       'themeBlacker' : '#131316',
       'themeGrey' : '#999999',

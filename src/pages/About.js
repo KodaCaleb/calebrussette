@@ -7,7 +7,9 @@ export default function About() {
       <div className="flex-shrink-0 max-w-lg">
         <Headshot />
       </div>
-      <SkillsBioSwitcher />
+      <div className="flex h-full w-full flex-col justify-center">
+        <SkillsBioSwitcher />
+      </div>
     </div>
   );
 }
