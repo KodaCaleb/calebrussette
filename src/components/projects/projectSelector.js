@@ -39,7 +39,7 @@ export default function ProjectSelector() {
                 <button
                   onClick={() => handleSetCurrentProject(data.id)}
                   key={data.id}
-                  className={`self-end hover:opacity-80 m-2 md:self-end text-xl p-3 w-full text-center md:text-end ${buttonClass}`}
+                  className={`self-end hover:opacity-80  m-2 md:self-end text-xl p-3 w-full text-center md:text-end ${buttonClass}`}
                 >
                   {data.title}
                 </button>
@@ -51,3 +51,6 @@ export default function ProjectSelector() {
     </div>
   );
 }
+
+
+

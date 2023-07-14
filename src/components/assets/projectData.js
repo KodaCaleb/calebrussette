@@ -10,12 +10,12 @@ export const projectData = [
     }, 
     {
         id: 2,
-        title: "Tiktok for Software Developers",
+        title: "ShortStack",
         description: "This was an ambitious project that me and a small team worked together to create. The objective for this project was to learn more relevent tools and technologies that are used in the industry and how to tackle issues that developers face when providing short form content on a large scale. We faced many challenges during this project, such as CDN's, blob storage, and manipulating video that was being provided from the user. We were able to overcome these challenges and create a fully functional website that allows users to upload short form videos and view other users videos.",
         image: "./portfolio.png",
         link: "https://github.com/KodaCaleb",
         github: "https://github.com/KodaCaleb",
-        technologies: "React, React Native, Nodejs, Firebase, Express, GraphQL, Figma "
+        technologies: "React, React Native, Nodejs, Firebase, Express, Figma "
     },
     {
         id: 3,
