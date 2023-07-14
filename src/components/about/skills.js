@@ -11,7 +11,7 @@ export default function Skills() {
             {SkillsData.map((skill) => (
             <div 
                 key={skill.id}
-                className="flex flex-col flex-wrap h-24 items-center justify-center "
+                className="flex flex-col hover:text-themeWhite flex-wrap h-24 items-center justify-center "
                 >
                 {skill.icon}
                 <h1 className="text-sm ">{skill.name}</h1>
