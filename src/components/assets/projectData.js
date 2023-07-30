@@ -54,12 +54,12 @@ export const projectData = [
   },
   {
     id: 6,
-    title: "Book Search Engine",
+    title: "Employee Tracker",
     description:
-      "This project is emblematic of the fact that most modern websites are driven by two things: data, and user demands. The ability to personalize user data is the cornerstone of real-world web development, and I took on this project to learn how to deal with this challenge. While building this application I was faced with the challenges that come with manipulating data within a non-relational database (mongoDB using GraphQL), and learned how to overcome many of these challenges. I have found that I absolutely love using GraphQL and Apollo Server and am very excited to use these again in the future.",
+      "This project was built to showcase my skills in building a backend for an employee tracker. I used MySQL and Sequelize to build the database and models. I used Express to build the routes and Nodejs to run the server. I used Postman to test the routes and make sure that they were working properly. I also used Dotenv to hide my sensitive information. It is very exciting to learn the inner workings of a relational database, and how these skills could be used on a much larger scale.",
     image: "./portfolio.png",
-    link: "https://github.com/KodaCaleb",
-    github: "https://github.com/KodaCaleb",
-    technologies: "React, GraphQL, Apollo Server, MongoDB, Heroku",
+    link: "https://github.com/KodaCaleb/Employee-Tracker",
+    github: "https://github.com/KodaCaleb/Employee-Tracker",
+    technologies: "Nodejs, Express, MySQL, Sequelize, Dotenv, Postman",
   },
 ];
