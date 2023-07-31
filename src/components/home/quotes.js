@@ -28,7 +28,7 @@ export default function Quotes() {
   }, []);
 
   return (
-    <div className="w-1/2 self-end mb-4 h-24 flex text-themeWhite flex-row justify-end overflow-hidden">
+    <div className="w-1/2 self-end mb-4 h-24 hidden sm:flex text-themeWhite  flex-row justify-end overflow-hidden">
       <div className="w-1/2 font-extralight justify-center flex  overflow-hidden ">
         <AnimatePresence>
           {!isSwitching && (
