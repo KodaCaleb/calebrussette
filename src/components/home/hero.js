@@ -11,7 +11,7 @@ export default function Hero() {
           Caleb
         </span>
       </h1>
-      <h1 className=" text-xl mb-6 mt-6">
+      <h1 className=" text-xl h-1/4 sm:h-auto mb-10 sm:mb-6 sm:w-full mt-6">
         <TypeAnimation 
           sequence={['Full-stack Web Developer specialized in building exceptional digital experiences.']}
           speed={70}
