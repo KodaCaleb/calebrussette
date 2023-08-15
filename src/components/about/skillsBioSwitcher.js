@@ -17,7 +17,9 @@ export default function SkillsBioSwitcher() {
           onClick={handleToggle}
           disabled={showBio}
           className={`font-extralight drop-shadow-xl  text-themeBlack pr-8 pl-8 pt-2 pb-2 rounded-l-lg ${
-            showBio ? "gradient-background border" : "text-themeWhite text-opacity-80 hover:text-opacity-100"
+            showBio
+              ? "gradient-background border"
+              : "text-themeWhite text-opacity-80 hover:text-opacity-100"
           }`}
         >
           Bio
@@ -26,7 +28,9 @@ export default function SkillsBioSwitcher() {
           onClick={handleToggle}
           disabled={!showBio}
           className={`font-extralight drop-shadow-xl  text-themeBlack pr-8 pl-8 pt-2 pb-2 rounded-r-lg ${
-            !showBio ? "gradient-background border " : "text-themeWhite text-opacity-80 hover:text-opacity-100"
+            !showBio
+              ? "gradient-background border "
+              : "text-themeWhite text-opacity-80 hover:text-opacity-100"
           }`}
         >
           Skills
@@ -35,4 +39,3 @@ export default function SkillsBioSwitcher() {
     </div>
   );
 }
-

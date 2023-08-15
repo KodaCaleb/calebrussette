@@ -7,7 +7,9 @@ export default function ContactForm() {
     return (
       <div className="sm:w-1/2 w-full h-full sm:h-full flex-col justify-center">
         <div className="w-auto h-4/5 mt-12 m-8 flex flex-col justify-center ">
-          <p className="text-themeWhite self-center text-5xl font-extralight">Thanks for reaching out!</p>
+          <p className="text-themeWhite self-center text-5xl font-extralight">
+            Thanks for reaching out!
+          </p>
         </div>
       </div>
     );
