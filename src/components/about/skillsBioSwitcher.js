@@ -12,7 +12,7 @@ export default function SkillsBioSwitcher() {
   return (
     <div className="h-full flex flex-col justify-evenly items-center w-full">
       {showBio ? <Bio /> : <Skills />}
-      <div className="mb-8 mt-4">
+      <div className="mb-8 mt-8 sm:mt-4">
         <button
           onClick={handleToggle}
           disabled={showBio}
