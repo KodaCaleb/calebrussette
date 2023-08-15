@@ -15,7 +15,9 @@ export default function Headshot() {
       <div className="sm:h-2/3 sm:w-full h-full w-full flex flex-col justify-start mt-6 items-center p-10 sm:pl-20">
         <img
           src={MyHeadshot}
-          className={`max-w-full max-h-full border border-themeBlack flex rounded drop-shadow-2xl ${loaded ? "fadeIn" : ""}`}
+          className={`max-w-full max-h-full border border-themeBlack flex rounded drop-shadow-2xl ${
+            loaded ? "fadeIn" : ""
+          }`}
           alt=""
         />
       </div>

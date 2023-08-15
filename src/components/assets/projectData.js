@@ -7,18 +7,19 @@ export const projectData = [
     image: "./portfolio.png",
     link: "https://shortstack.vercel.app/",
     github: "https://github.com/KodaCaleb/ShortStack",
-    technologies: "React, TailwindCSS, Google Cloud Platform, Nodejs, Firebase, Express, Figma ",
+    technologies:
+      "React, TailwindCSS, Google Cloud Platform, Nodejs, Firebase, Express, Figma ",
   },
   {
     id: 1,
     title: "Valiant Health",
     description:
-      "I was contracted to develop a 'coming soon' page for a local health company's website, collaborating closely with the client. This initial success led to an opportunity to join a skilled team in building the complete website. Working alongside talented developers and designers, I'm currently utilizing innovative technologies and following agile methodologies to develop the full website. It has been an exciting professional project, and I look forward to providing updates soon.",
+      "I was contracted to develop webpage for a local health company's website, collaborating closely with the client. This initial success led to an opportunity to join a skilled team in building the complete website. Working alongside talented developers and designers, I'm currently utilizing innovative technologies and following agile methodologies to develop the full website. It has been an exciting professional project, and I look forward to providing updates soon.",
     image: "./portfolio.png",
     link: "https://www.valianthealth.org",
-    github: "https://github.com/KodaCaleb/val",
+    github: "https://github.com/KodaCaleb/",
     technologies:
-      "Nextjs, React, TailwindCSS, Vercel, Figma, MongoDB, Express, Nodejs, AWS",
+      "React, TailwindCSS, Vercel, Figma, Nodejs, Firebase, Google Cloud Platform",
   },
   {
     id: 3,

@@ -11,7 +11,6 @@ export default function ProjectSelector() {
     const project = projectData.find((data) => data.id === projectId);
     setCurrentProject(project);
     ref.current.scrollIntoView({ behavior: "smooth" });
-
   };
 
   return (
@@ -22,10 +21,10 @@ export default function ProjectSelector() {
         ) : (
           <div className="self-center justify-center flex-row flex h-1/2 w-full">
             <div className="h-2/5 sm:w-2/3 w-full sm:flex text-start self-center hidden border-b pb-12 text-themeWhite sm:text-5xl text-2xl font-thin flex-col justify-center">
-                <TypeAnimation
+              <TypeAnimation
                 sequence={["Here's what I've been working on :"]}
                 speed={50}
-                />
+              />
             </div>
           </div>
         )}
@@ -34,7 +33,10 @@ export default function ProjectSelector() {
         <div className="flex w-1/2 ">
           <div className="flex self-center sm:justify-evenly justify-center md:mr-8 mb-20 md:mb-0 text-themeWhite flex-col w-full h-2/3">
             {projectData.map((data) => {
-              const buttonClass = data.id === currentProject?.id ? "  rounded-r-2xl dropshadow-2xl border-themeWhite border-b border-t sm:font-normal sm:text-themeBlack border-opacity-30 gradient-background  opacity-100" : "";
+              const buttonClass =
+                data.id === currentProject?.id
+                  ? "  rounded-r-2xl dropshadow-2xl border-themeWhite border-b border-t sm:font-normal sm:text-themeBlack border-opacity-30 gradient-background  opacity-100"
+                  : "";
               return (
                 <button
                   onClick={() => handleSetCurrentProject(data.id)}
@@ -51,6 +53,3 @@ export default function ProjectSelector() {
     </div>
   );
 }
-
-
-
