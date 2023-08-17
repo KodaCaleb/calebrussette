@@ -27,7 +27,7 @@ export const projectData = [
     description:
       "This website was built to showcase my skills as a developer. I wanted to create a website that was simple, yet elegant. I also wanted to create a website that was easy to navigate and responsive. I used React and TailwindCSS to build this website. I also used Figma to create the design and layout of the website. I used Vercel to deploy the website. I am very happy with the outcome of this website and I am excited to continue to add to it as I learn new technologies and skills.",
     image: "./portfolio.png",
-    link: "https://www.kodacaleb.dev",
+    link: "https://kodacaleb.dev",
     github: "https://github.com/KodaCaleb/calebrussette",
     technologies:
       "React, TailwindCSS, Nodejs, React Transition Group, Vercel, Figma",
